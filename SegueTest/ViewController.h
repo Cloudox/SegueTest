@@ -7,8 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+// 引用Page2
+#import "Page2ViewController.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <Page2Delegate>// 采用Page2的协议
+@property (weak, nonatomic) IBOutlet UITextField *textField;
 
 
 @end

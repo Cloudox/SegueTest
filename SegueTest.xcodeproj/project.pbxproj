@@ -14,6 +14,7 @@
 		ADE9D10D1B7C24CF00BB1BF3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADE9D10C1B7C24CF00BB1BF3 /* Images.xcassets */; };
 		ADE9D1101B7C24CF00BB1BF3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADE9D10E1B7C24CF00BB1BF3 /* LaunchScreen.xib */; };
 		ADE9D11C1B7C24CF00BB1BF3 /* SegueTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE9D11B1B7C24CF00BB1BF3 /* SegueTestTests.m */; };
+		ADE9D1271B7C2A3900BB1BF3 /* Page2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE9D1261B7C2A3900BB1BF3 /* Page2ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		ADE9D1151B7C24CF00BB1BF3 /* SegueTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SegueTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADE9D11A1B7C24CF00BB1BF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ADE9D11B1B7C24CF00BB1BF3 /* SegueTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SegueTestTests.m; sourceTree = "<group>"; };
+		ADE9D1251B7C2A3900BB1BF3 /* Page2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Page2ViewController.h; sourceTree = "<group>"; };
+		ADE9D1261B7C2A3900BB1BF3 /* Page2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Page2ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				ADE9D1041B7C24CF00BB1BF3 /* AppDelegate.m */,
 				ADE9D1061B7C24CF00BB1BF3 /* ViewController.h */,
 				ADE9D1071B7C24CF00BB1BF3 /* ViewController.m */,
+				ADE9D1251B7C2A3900BB1BF3 /* Page2ViewController.h */,
+				ADE9D1261B7C2A3900BB1BF3 /* Page2ViewController.m */,
 				ADE9D1091B7C24CF00BB1BF3 /* Main.storyboard */,
 				ADE9D10C1B7C24CF00BB1BF3 /* Images.xcassets */,
 				ADE9D10E1B7C24CF00BB1BF3 /* LaunchScreen.xib */,
@@ -221,6 +226,7 @@
 			files = (
 				ADE9D1081B7C24CF00BB1BF3 /* ViewController.m in Sources */,
 				ADE9D1051B7C24CF00BB1BF3 /* AppDelegate.m in Sources */,
+				ADE9D1271B7C2A3900BB1BF3 /* Page2ViewController.m in Sources */,
 				ADE9D1021B7C24CF00BB1BF3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
