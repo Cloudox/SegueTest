@@ -25,6 +25,7 @@
     // 对page2中的变量设置值
     [page2 setValue:self.textField.text forKey:@"string"];
     
+    // 设定委托为self
     [page2 setValue:self forKey:@"delegate"];
 }
 
