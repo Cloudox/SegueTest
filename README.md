@@ -1,4 +1,7 @@
 # SegueTest
 学习基本的Storyboard中Segue跳转、传值
 
+## 介绍
+在iOS的开发过程中，不可避免的要设计界面，在android中有xml设置界面和直接使用java代码设置界面控件两种方式，在之前的ios开发中也是类似的有xib文件设置界面及用代码直接设置控件两种方法，但后来又出了一种方式，就是storyboard故事板子，其实storyboard和xib文件很像，最大的不同之处在于一个xib文件对应一个ViewController视图控制器，而storyboard对应多个，基本一个应用只需要一个storyboard就可以了，不再需要为每个控制器创建一个xib文件，从这点上来说，还是很方便的，在storyboard中查看各个界面的跳转也很方便。这个demo是用来学习在storyboard中使用segue进行跳转传值的。
+
 详细说明查看[我的博客](http://blog.csdn.net/cloudox_/article/details/47606801)
